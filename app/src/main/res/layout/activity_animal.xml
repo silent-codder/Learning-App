@@ -1,46 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background"
-    android:orientation="vertical"
     tools:context=".Animal">
 
     <TextView
+        android:id="@id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="प्राणी"
         android:textSize="35dp"
         android:textStyle="bold"
         android:textColor="@color/orange"
-        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"/>
-    <RelativeLayout
-        android:padding="20dp"
+    <ScrollView
+        android:layout_below="@id/title"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-
+    <ImageView
+        android:id="@+id/tiger"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:src="@drawable/tiger"
+        android:layout_centerHorizontal="true"/>
         <LinearLayout
             android:id="@+id/animal"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
             android:orientation="vertical"
-            android:background="@drawable/orange_bg">
-
-            
+            android:background="@drawable/orange_bg"
+            android:layout_marginTop="165dp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Animal"
+                android:text="वाघ"
                 android:layout_gravity="center"
-                android:textSize="25sp"
+                android:textSize="35sp"
                 android:textStyle="bold"
-                android:textColor="#ffffff"
-                android:layout_marginTop="20dp"/>
+                android:textColor="#ffffff"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -49,10 +57,581 @@
                 android:textColor="#ffffff"
                 android:textStyle="bold"
                 android:layout_marginTop="5dp"
-                android:text="This passage is only for information about animal."/>
+                android:text="आज आपण जंगलाचा राजा, भारताचा राष्ट्रीय प्राणी वाघाबद्दल जाणून घेऊया. वाघ हा जंगलाचा राजा म्हणून ओळखला जातो"
+                android:gravity="center"
+                android:textSize="17sp"/>
 
+            <LinearLayout
+                android:id="@+id/btn_readMore_tiger"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Read more"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_next"
+                    android:layout_marginRight="30dp"/>
+
+
+            </LinearLayout>
         </LinearLayout>
 
-    </RelativeLayout>
+            <ImageView
+                android:id="@+id/lion"
+                android:layout_below="@id/animal"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/lion"
+                android:layout_centerHorizontal="true"/>
+            <LinearLayout
+                android:layout_below="@id/lion"
+                android:id="@+id/animal_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:orientation="vertical"
+                android:background="@drawable/yellow_bg">
 
-</LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="सिंह"
+                    android:layout_gravity="center"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:text="आज आपण जंगलाचा राजा, भारताचा राष्ट्रीय प्राणी वाघाबद्दल जाणून घेऊया. वाघ हा जंगलाचा राजा म्हणून ओळखला जातो"
+                    android:gravity="center"
+                    android:textSize="17sp"/>
+
+                <LinearLayout
+                    android:id="@+id/btn_readMore_lion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Read more"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_next"
+                        android:layout_marginRight="30dp"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/bear"
+                android:layout_below="@id/animal_1"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/bear"
+                android:layout_centerHorizontal="true"/>
+            <LinearLayout
+                android:layout_below="@id/bear"
+                android:id="@+id/animal_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:orientation="vertical"
+                android:background="@drawable/red_bg">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="अस्वल"
+                    android:layout_gravity="center"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:text="आज आपण जंगलाचा राजा, भारताचा राष्ट्रीय प्राणी वाघाबद्दल जाणून घेऊया. वाघ हा जंगलाचा राजा म्हणून ओळखला जातो"
+                    android:gravity="center"
+                    android:textSize="17sp"/>
+
+                <LinearLayout
+                    android:id="@+id/btn_readMore_bear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Read more"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_next"
+                        android:layout_marginRight="30dp"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/camel"
+                android:layout_below="@id/animal_2"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/camel"
+                android:layout_centerHorizontal="true"/>
+            <LinearLayout
+                android:layout_below="@id/camel"
+                android:id="@+id/animal_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:orientation="vertical"
+                android:background="@drawable/yellow_bg">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="उंट"
+                    android:layout_gravity="center"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:text="आज आपण जंगलाचा राजा, भारताचा राष्ट्रीय प्राणी वाघाबद्दल जाणून घेऊया. वाघ हा जंगलाचा राजा म्हणून ओळखला जातो"
+                    android:gravity="center"
+                    android:textSize="17sp"/>
+
+                <LinearLayout
+                    android:id="@+id/btn_readMore_camel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Read more"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_next"
+                        android:layout_marginRight="30dp"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/cow"
+                android:layout_below="@id/animal_3"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/cow"
+                android:layout_centerHorizontal="true"/>
+            <LinearLayout
+                android:layout_below="@id/cow"
+                android:id="@+id/animal_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:orientation="vertical"
+                android:background="@drawable/white_bg">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="गाई"
+                    android:layout_gravity="center"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:text="आज आपण जंगलाचा राजा, भारताचा राष्ट्रीय प्राणी वाघाबद्दल जाणून घेऊया. वाघ हा जंगलाचा राजा म्हणून ओळखला जातो"
+                    android:gravity="center"
+                    android:textSize="17sp"/>
+
+                <LinearLayout
+                    android:id="@+id/btn_readMore_cow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Read more"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_next"
+                        android:layout_marginRight="30dp"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/deer"
+                android:layout_below="@id/animal_4"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/deer"
+                android:layout_centerHorizontal="true"/>
+            <LinearLayout
+                android:layout_below="@id/deer"
+                android:id="@+id/animal_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:orientation="vertical"
+                android:background="@drawable/yellow_bg">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="हरिण"
+                    android:layout_gravity="center"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:text="आज आपण जंगलाचा राजा, भारताचा राष्ट्रीय प्राणी वाघाबद्दल जाणून घेऊया. वाघ हा जंगलाचा राजा म्हणून ओळखला जातो"
+                    android:gravity="center"
+                    android:textSize="17sp"/>
+
+                <LinearLayout
+                    android:id="@+id/btn_readMore_deer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Read more"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_next"
+                        android:layout_marginRight="30dp"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/elephant"
+                android:layout_below="@id/animal_5"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/elephant"
+                android:layout_centerHorizontal="true"/>
+            <LinearLayout
+                android:layout_below="@id/elephant"
+                android:id="@+id/animal_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:orientation="vertical"
+                android:background="@drawable/white_bg">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="हत्ती"
+                    android:layout_gravity="center"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:text="आज आपण जंगलाचा राजा, भारताचा राष्ट्रीय प्राणी वाघाबद्दल जाणून घेऊया. वाघ हा जंगलाचा राजा म्हणून ओळखला जातो"
+                    android:gravity="center"
+                    android:textSize="17sp"/>
+
+                <LinearLayout
+                    android:id="@+id/btn_readMore_elephant"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Read more"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_next"
+                        android:layout_marginRight="30dp"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/horse"
+                android:layout_below="@id/animal_6"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/horse"
+                android:layout_centerHorizontal="true"/>
+            <LinearLayout
+                android:layout_below="@id/horse"
+                android:id="@+id/animal_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:orientation="vertical"
+                android:background="@drawable/darkgreen_bg">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="घोडा"
+                    android:layout_gravity="center"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:text="आज आपण जंगलाचा राजा, भारताचा राष्ट्रीय प्राणी वाघाबद्दल जाणून घेऊया. वाघ हा जंगलाचा राजा म्हणून ओळखला जातो"
+                    android:gravity="center"
+                    android:textSize="17sp"/>
+
+                <LinearLayout
+                    android:id="@+id/btn_readMore_horse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Read more"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_next"
+                        android:layout_marginRight="30dp"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/zebra"
+                android:layout_below="@id/animal_7"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/zebra"
+                android:layout_centerHorizontal="true"/>
+            <LinearLayout
+                android:layout_below="@id/zebra"
+                android:id="@+id/animal_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:orientation="vertical"
+                android:background="@drawable/white_bg">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="झेब्रा"
+                    android:layout_gravity="center"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:text="आज आपण जंगलाचा राजा, भारताचा राष्ट्रीय प्राणी वाघाबद्दल जाणून घेऊया. वाघ हा जंगलाचा राजा म्हणून ओळखला जातो"
+                    android:gravity="center"
+                    android:textSize="17sp"/>
+
+                <LinearLayout
+                    android:id="@+id/btn_readMore_zebra"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Read more"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_next"
+                        android:layout_marginRight="30dp"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/rabbit"
+                android:layout_below="@id/animal_8"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/rabbit"
+                android:layout_centerHorizontal="true"/>
+            <LinearLayout
+                android:layout_below="@id/rabbit"
+                android:id="@+id/animal_9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:orientation="vertical"
+                android:background="@drawable/white_bg">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ससा"
+                    android:layout_gravity="center"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:text="आज आपण जंगलाचा राजा, भारताचा राष्ट्रीय प्राणी वाघाबद्दल जाणून घेऊया. वाघ हा जंगलाचा राजा म्हणून ओळखला जातो"
+                    android:gravity="center"
+                    android:textSize="17sp"/>
+
+                <LinearLayout
+                    android:id="@+id/btn_readMore_rabbit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Read more"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_next"
+                        android:layout_marginRight="30dp"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/po"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/animal_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Powered by"/>
+            <ImageView
+                android:layout_below="@id/po"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/vclassroom"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

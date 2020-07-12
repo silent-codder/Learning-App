@@ -10,5 +10,7 @@
     <color name="darkGreen">#324538</color>
     <color name="lightGreen">#5A967A</color>
     <color name="yellow">#F2B369</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
 
 </resources>

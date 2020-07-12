@@ -57,7 +57,7 @@
                 android:textColor="#ffffff"
                 android:textStyle="bold"
                 android:layout_marginTop="5dp"
-                android:text="आज आपण जंगलाचा राजा, भारताचा राष्ट्रीय प्राणी वाघाबद्दल जाणून घेऊया. वाघ हा जंगलाचा राजा म्हणून ओळखला जातो"
+                android:text="आज आपण भारताचा राष्ट्रीय प्राणी वाघाबद्दल जाणून घेऊया.  २९ जुलै हा जागतिक वाघ दिवस म्हणून साजरा केला जातो."
                 android:gravity="center"
                 android:textSize="17sp"/>
 
@@ -117,7 +117,7 @@
                     android:textColor="#ffffff"
                     android:textStyle="bold"
                     android:layout_marginTop="5dp"
-                    android:text="आज आपण जंगलाचा राजा, भारताचा राष्ट्रीय प्राणी वाघाबद्दल जाणून घेऊया. वाघ हा जंगलाचा राजा म्हणून ओळखला जातो"
+                    android:text="प्राण्यांचा राजा सिंह आहे. अतिशय शूर, देखना, रुबाबदार असा हा प्राणी जंगलाचा राजा म्हणून शोभून दिसतो. "
                     android:gravity="center"
                     android:textSize="17sp"/>
 
@@ -176,7 +176,7 @@
                     android:textColor="#ffffff"
                     android:textStyle="bold"
                     android:layout_marginTop="5dp"
-                    android:text="आज आपण जंगलाचा राजा, भारताचा राष्ट्रीय प्राणी वाघाबद्दल जाणून घेऊया. वाघ हा जंगलाचा राजा म्हणून ओळखला जातो"
+                    android:text="अस्वले आपल्या हातांच्या विळख्यात प्राण्याला घट्ट पकडून गुदगुल्या करून ठार मारते अशी समजूत आहे. पण ती समजूत खरी नाही."
                     android:gravity="center"
                     android:textSize="17sp"/>
 

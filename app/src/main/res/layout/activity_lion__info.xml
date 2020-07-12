@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Lion_Info">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:padding="20dp"
+                android:background="@drawable/orange_info_bg">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/lion"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="सिंह"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="50dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="         प्राण्यांचा राजा सिंह आहे. अतिशय शूर, देखना, रुबाबदार असा हा प्राणी जंगलाचा राजा म्हणून शोभून दिसतो. सिंह आणि सिंहीण तिच्या पिल्लांना छावा म्हणतात. सिंह जंगलात गुहेत राहतो. त्याचा सोनेरी रंग, त्याची भव्यता केसाळ आयाळ त्याच्या सौंदर्यात भर घालते. तो स्वतः आपली शिकार करतो."
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="        सिंहाचे पिवळसर डोळे अतिशय चमकत असतात. अंधारात हिरा जसा आपल्या तेजाने सगळ्यांचे लक्ष आकर्षून घेतो तसे हे डोळे सगळ्यांना आकर्षित करतात तसे हे डोळे सगळ्यांना आकर्षित करतात. सिन्हा मांसाहारी प्राणी आहे. सिंहाला पकडून सर्कशीत कसरती करायला शिकवतात. प्राणिसंग्रहालयात त्याला पिंजरा ठेवतात. पण असा हा जंगलाचा राजा पिंजरा तही अस्वस्थपणे येरझार्‍या घालत असतो.
+शिकारी पैशासाठी त्याची शिकार करतात. \n       त्यामुळे आता त्यांची संख्या फारच कमी झाली आहे. आपण सर्वांनी त्याचे संरक्षण करून त्याची काळजी घेतली पाहिजे."
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Powered by"
+                    android:layout_gravity="center"/>
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/vclassroom"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

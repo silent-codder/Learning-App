@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".Tiger_Info">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:padding="20dp"
+        android:background="@drawable/yellow_info_bg">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tiger"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="वाघ"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="50dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="       वाघ हा भारताचा राष्ट्रीय प्राणी आहे. २९ जुलै हा जागतिक वाघ दिवस म्हणून साजरा केला जातो. वाघ हा मांजरवर्गीय सर्वात मोठा प्राणी असून तो क्रूर शिकारी आहे."
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="भारतातील वाघांचे वजन सुमारे १०० ते १८० किलोपर्यंत भरते. वाघाची मादी तुलनेत थोडी लहान असते. वाघाच्या अंगावर काळ्या पट्टय़ा असतात. \n       जसे दोन माणसांचे ठसे कधीही समान नसतात त्याचप्रमाणे दोन वाघांच्या अंगावरील पट्टेसुद्धा कधी समान नसतात. ह्या पट्टय़ांची संख्या सुमारे १०० असते या पट्टय़ांचा उपयोग वाघाला जंगलात लपण्यासाठी होतो.
+
+पट्टय़ाप्रमाणेच त्यांच्या पंजांची ठेवण सुद्धा प्रत्येक वाघात वेगळी असते. वाघाचा पंजा खूप मोठा आणि ताकदवान असतो. \n    तो सुमारे सहा ते आठ इंच लांबीचा असतो, त्यामुळे वाघाचे ठसे सहज दिसू शकतात.
+
+सुमारे ताशी ६५ किलोमीटर या वेगाने पळू शकतो. \n     वाघाचे जबडे त्याच्या पंजाहूनही अधिक बलवान असतात, ज्यांच्या सहाय्याने वाघ शिकार घट्ट पकडून ठेवू शकतो, ओढून नेऊ शकतो.
+
+मादीला वाघीण म्हणतात. वाघीण एका वेळी ३ ते ४ पिल्लांना जन्म देते. \n     वाघाच्या पिल्लांना बछडा म्हणतात. जन्मत: पिल्ले कमजोर आणि आंधळी असतात.
+
+हा मांसाहारी प्राणी असून हत्ती सोडून इतर कोणत्याही प्राण्याची शिकार करू शकतो; \n     परंतु वाघांना मोठय़ा प्राण्यांची शिकार करणे जास्त आवडते. वाघ सहसा एकटे शिकार करतात.
+
+उत्तम पोहू शकतात आणि उन्हाळ्यात थंड पाण्यात तासन्तास बसून ते त्याची उष्णता कमी करतात. वाघाचे आयुष्यमान सुमारे २० वर्षे असते."
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Powered by"
+            android:layout_gravity="center"/>
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:src="@drawable/vclassroom"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

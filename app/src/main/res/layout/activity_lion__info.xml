@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Lion_Info">
+    tools:context=".Animal_Info.Lion_Info">
 
     <ScrollView
         android:layout_width="match_parent"

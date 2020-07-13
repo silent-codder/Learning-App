@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.silentcodder.learningapp">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,16 +12,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Horse_Info"></activity>
-        <activity android:name=".Rabbit_Info" />
-        <activity android:name=".Zebra_Info" />
-        <activity android:name=".Elephant_Info" />
-        <activity android:name=".Deer_Info" />
-        <activity android:name=".Cow_Info" />
-        <activity android:name=".Camel_Info" />
-        <activity android:name=".Bear_Info" />
-        <activity android:name=".Lion_Info" />
-        <activity android:name=".Tiger_Info" />
+        <activity android:name=".Flower"></activity>
+        <activity android:name=".Fruit"></activity>
+        <activity android:name=".Bird" />
+        <activity android:name=".Animal_Info.Horse_Info" />
+        <activity android:name=".Animal_Info.Rabbit_Info" />
+        <activity android:name=".Animal_Info.Zebra_Info" />
+        <activity android:name=".Animal_Info.Elephant_Info" />
+        <activity android:name=".Animal_Info.Deer_Info" />
+        <activity android:name=".Animal_Info.Cow_Info" />
+        <activity android:name=".Animal_Info.Camel_Info" />
+        <activity android:name=".Animal_Info.Bear_Info" />
+        <activity android:name=".Animal_Info.Lion_Info" />
+        <activity android:name=".Animal_Info.Tiger_Info" />
         <activity android:name=".Animal" />
         <activity android:name=".MainActivity">
             <intent-filter>

@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".Flower">
+
+    <TextView
+        android:id="@id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="फुले"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <ScrollView
+        android:layout_below="@id/title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/lotus"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:src="@drawable/lotus"
+                android:layout_centerHorizontal="true"/>
+            <LinearLayout
+                android:id="@+id/animal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:orientation="vertical"
+                android:background="@drawable/darkgreen_bg"
+                android:layout_marginTop="165dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="कमळ"
+                    android:layout_gravity="center"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:text="आज आपण भारताचा राष्ट्रीय प्राणी वाघाबद्दल जाणून घेऊया.  २९ जुलै हा जागतिक वाघ दिवस म्हणून साजरा केला जातो."
+                    android:gravity="center"
+                    android:textSize="17sp"/>
+
+                <LinearLayout
+                    android:id="@+id/btn_readMore_lotus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Read more"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_next"
+                        android:layout_marginRight="30dp"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/daisy"
+                android:layout_below="@id/animal"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/daisy"
+                android:layout_centerHorizontal="true"/>
+            <LinearLayout
+                android:layout_below="@id/daisy"
+                android:id="@+id/animal_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:orientation="vertical"
+                android:background="@drawable/red_bg">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="डेझी"
+                    android:layout_gravity="center"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:text="प्राण्यांचा राजा सिंह आहे. अतिशय शूर, देखना, रुबाबदार असा हा प्राणी जंगलाचा राजा म्हणून शोभून दिसतो. "
+                    android:gravity="center"
+                    android:textSize="17sp"/>
+
+                <LinearLayout
+                    android:id="@+id/btn_readMore_daisy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Read more"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_next"
+                        android:layout_marginRight="30dp"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/jaswand"
+                android:layout_below="@id/animal_1"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/jaswand"
+                android:layout_centerHorizontal="true"/>
+            <LinearLayout
+                android:layout_below="@id/jaswand"
+                android:id="@+id/animal_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:orientation="vertical"
+                android:background="@drawable/white_bg">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="जास्वंद"
+                    android:layout_gravity="center"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:text="अस्वले आपल्या हातांच्या विळख्यात प्राण्याला घट्ट पकडून गुदगुल्या करून ठार मारते अशी समजूत आहे. पण ती समजूत खरी नाही."
+                    android:gravity="center"
+                    android:textSize="17sp"/>
+
+                <LinearLayout
+                    android:id="@+id/btn_readMore_jaswand"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Read more"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_next"
+                        android:layout_marginRight="30dp"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/mogara"
+                android:layout_below="@id/animal_2"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/mogara"
+                android:layout_centerHorizontal="true"/>
+            <LinearLayout
+                android:layout_below="@id/mogara"
+                android:id="@+id/animal_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:orientation="vertical"
+                android:background="@drawable/darkgreen_bg">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="मोगरा"
+                    android:layout_gravity="center"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:text="उंट हा एक वाळवंटी प्रदेशात राहणारा प्राणी आहे. वाळवंटातील वास्तव्यासाठी त्याची नैसर्गिक जडणघडण झाली आहे."
+
+                    android:gravity="center"
+                    android:textSize="17sp"/>
+
+                <LinearLayout
+                    android:id="@+id/btn_readMore_mogara"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Read more"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_next"
+                        android:layout_marginRight="30dp"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/rose"
+                android:layout_below="@id/animal_3"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/rose"
+                android:layout_centerHorizontal="true"/>
+            <LinearLayout
+                android:layout_below="@id/rose"
+                android:id="@+id/animal_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:orientation="vertical"
+                android:background="@drawable/red_bg">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="गुलाब"
+                    android:layout_gravity="center"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:text="भारत कृषी देश असल्यामुळे येथे गायीचं फार महत्त्व आहे. हिंदू धर्मात गायीचं महत्त्व असल्याचे काही आध्यात्मिक, धार्मिक आणि चिकित्सीय कारणंही आहेत."
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:textSize="17sp"/>
+
+                <LinearLayout
+                    android:id="@+id/btn_readMore_rose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Read more"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_next"
+                        android:layout_marginRight="30dp"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/sadaphuli"
+                android:layout_below="@id/animal_4"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/sadaphuli"
+                android:layout_centerHorizontal="true"/>
+            <LinearLayout
+                android:layout_below="@id/sadaphuli"
+                android:id="@+id/animal_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:orientation="vertical"
+                android:background="@drawable/darkgreen_bg">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="सदाफुली"
+                    android:layout_gravity="center"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:text="हरीण भारतात आढळणारी हरीणाची मुख्य जात आहे. याचे शास्त्रीय नाव Cervix unicolour असे आहे. "
+                    android:gravity="center"
+                    android:textSize="17sp"/>
+
+                <LinearLayout
+                    android:id="@+id/btn_readMore_sadaphuli"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Read more"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_next"
+                        android:layout_marginRight="30dp"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/sunflower"
+                android:layout_below="@id/animal_5"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/sunflower"
+                android:layout_centerHorizontal="true"/>
+            <LinearLayout
+                android:layout_below="@id/sunflower"
+                android:id="@+id/animal_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:orientation="vertical"
+                android:background="@drawable/yellow_bg">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="सूर्यफूल"
+                    android:layout_gravity="center"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:text="भारतीय संस्कृतीत हत्ती हे समृद्धी, सृजनशीलता, बुद्धी, औदार्य, शौर्य, मांगल्य व राजयोगाचे प्रतीक मानले गेले आहे."
+                    android:gravity="center"
+                    android:textSize="17sp"/>
+
+                <LinearLayout
+                    android:id="@+id/btn_readMore_sunFlower"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Read more"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_next"
+                        android:layout_marginRight="30dp"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/zendu"
+                android:layout_below="@id/animal_6"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/zendu"
+                android:layout_centerHorizontal="true"/>
+            <LinearLayout
+                android:layout_below="@id/zendu"
+                android:id="@+id/animal_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:orientation="vertical"
+                android:background="@drawable/darkgreen_bg">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="झेंडू"
+                    android:layout_gravity="center"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:text="घोडा हा एक खूप चपळ पण प्रामाणिक प्राणी आहे. त्याचे वैज्ञानिक नाव 'Equus ferus caballus' असे आहे."
+                    android:gravity="center"
+                    android:textSize="17sp"/>
+
+                <LinearLayout
+                    android:id="@+id/btn_readMore_zendu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Read more"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_next"
+                        android:layout_marginRight="30dp"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/po"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/animal_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Powered by"/>
+            <ImageView
+                android:layout_below="@id/po"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/vclassroom"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,8 +1,10 @@
-package com.silentcodder.learningapp;
+package com.silentcodder.learningapp.Animal_Info;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.silentcodder.learningapp.R;
 
 public class Elephant_Info extends AppCompatActivity {
 

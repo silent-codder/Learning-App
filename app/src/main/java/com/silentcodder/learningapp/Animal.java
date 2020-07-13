@@ -6,7 +6,17 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
-import android.widget.TextView;
+
+import com.silentcodder.learningapp.Animal_Info.Bear_Info;
+import com.silentcodder.learningapp.Animal_Info.Camel_Info;
+import com.silentcodder.learningapp.Animal_Info.Cow_Info;
+import com.silentcodder.learningapp.Animal_Info.Deer_Info;
+import com.silentcodder.learningapp.Animal_Info.Elephant_Info;
+import com.silentcodder.learningapp.Animal_Info.Horse_Info;
+import com.silentcodder.learningapp.Animal_Info.Lion_Info;
+import com.silentcodder.learningapp.Animal_Info.Rabbit_Info;
+import com.silentcodder.learningapp.Animal_Info.Tiger_Info;
+import com.silentcodder.learningapp.Animal_Info.Zebra_Info;
 
 public class Animal extends AppCompatActivity {
 

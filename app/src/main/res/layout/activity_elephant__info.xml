@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".Elephant_Info">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:padding="20dp"
+                android:background="@drawable/yellow_info_bg">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/elephant"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="हत्ती"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="50dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="                भारतीय संस्कृतीत हत्ती हे समृद्धी, सृजनशीलता, बुद्धी, औदार्य, शौर्य, मांगल्य व राजयोगाचे प्रतीक मानले गेले आहे."
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="          आपल्या जंगलातून दिसणारा एक वैशिष्टयपूर्ण प्राणी म्हणजे हत्ती. भारतात उत्तरप्रदेश, बिहार, ओरिसा, कर्नाटक, आसाम, केरळ आणि तामिळनाडू या राज्यांत हत्ती मोठया प्रमाणावर आढळतात.
+                    \n         हत्तीची उंची सव्वातीन ते साडेतीन मीटपर्यंत असते. काळा रंग, लांब सोंड, भले मोठे खांबासारखे पाय, सुपासारखे कान व अगदी बारीक डोळे यावरून हत्ती सहज ओळखता येतो.
+                    \n         भारतीय हत्तींमध्ये फक्त नरालाच मोठमोठे सुळे असतात. मादीला सुळे नसतात. क्वचित एखाद्या नराला सुळे नसतात. सुळे नसलेल्या नराला ‘माखना’ म्हणतात.
+                    \n         आफ्रिकेत सापडणा-या हत्तीच्या नराला व मादीला दोघांनाही मोठमोठे सुळे असतात. भारतीय हत्तीची पाठ फुगीर असते तर आफ्रिकन हत्तीची पाठ खोलगट असते.
+                    \n         हत्तीचं शरीर अवाढव्य असतं. त्याचं वजन पाच ते सहा टन असतं. हत्ती पाण्यात चांगले पोहतात."
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Powered by"
+                    android:layout_gravity="center"/>
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/vclassroom"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

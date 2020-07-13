@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".Camel_Info">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:padding="20dp"
+                android:background="@drawable/yellow_info_bg">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/camel"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="उंट"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="50dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="          उंट हा एक वाळवंटी प्रदेशात राहणारा प्राणी आहे. वाळवंटातील वास्तव्यासाठी त्याची नैसर्गिक जडणघडण झाली आहे."
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="          उंट हा वाळवंटी प्रदेशात राहणारा प्राणी आहे.उंट हा पृष्ठवंशीय प्राणी आहे. उंट हा सस्तन प्राणी आहे. उंट हा ४० ते ५० वर्ष जगतो. उंटाची उंची ७ फुटापेक्षा ज्यास्त असते. उंट १ तासाला ६५ किलोमी धावू शकतो.भारतामध्ये राजस्थान येथे उंट आढळतो.
+उंट हा एक प्रकारचा पाळीव प्राणी आहे. जगात सर्वात ज्यास्त उंट आफ्रिका खंडात आढळतो.\n         उंट आपले अन्न चरबीच्या रुपात वशिंडा मध्ये साठून ठेवतो. यामुळे उंट कमी पाण्यावर ६-६ महिने पाणी न पिता देखील जगू शकतो. म्हणून उंटाला वाळवंटातील जहाज म्हणतात.
+        \n\nउपयोग
+\n१)उंटापासून शेती केली जाते. उदा., सुदाम प्रदेश.
+\n२)लष्करामध्ये उंटाचा वापर केला जातो.
+\n३)उंटाचे दूध आरोग्य वर्धक असत.
+\n४)उंटाचा प्रमुख उपयोग वाळवंटातील वाहन म्हणून केला जातो.
+\n५)उंटाचे मांस खाल्ले जाते.
+\n6)उंटाच्या केसांपासून औद्योगिक वस्त्र तयार केले जाते."
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Powered by"
+                    android:layout_gravity="center"/>
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/vclassroom"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

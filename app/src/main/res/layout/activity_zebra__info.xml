@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".Zebra_Info">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:padding="20dp"
+                android:background="@drawable/orange_info_bg">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/zebra"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="झेब्रा"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="50dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="       काळ्या-पांढऱ्‍या पट्ट्यांची अतुलनीय रचना असलेले, कुटुंबाला एकनिष्ठ राहणारे, रानटी व स्वच्छंदी असलेले झेब्रा दिमाखदार आणि देखणे प्राणी आहेत यात शंकाच नाही."
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="        आफ्रिकेच्या गवताळ मैदानात हजारो झेब्रा मोकाट दौडताना दिसतात. दौडताना त्यांच्या पट्टेदार बाजू खाली वर होतात आणि आयाळाचे केसही त्याच लयात डौलत असतात.
+                    \n        शुष्क जमिनीवरील त्यांच्या टापांचा आवाज मैदानात गडगडत जातो. त्यांच्यामागे कित्येक किलोमीटरपर्यंत धुळीचा जणू लाल ढग निर्माण होतो. कसल्याही बंधनाविना ते बेफाम, मोकाट धावतात.
+                    \n        अचानक कुणी खुणावल्यासारखे ते मंदावतात आणि थांबतात. आणि आपल्या मजबूत, जाड दातांनी शुष्क गवत चरू लागतात.
+                    \n       कळप नेहमी सतर्क असतो, अधूनमधून वर पाहून, आवाज ऐकत असतो, हवेतून वास घेत असतो. दूरहून गर्जणा करणाऱ्‍या सिंहाची ढरकाळी वाऱ्‍याच्या प्रवाहातून त्यांच्या कानावर पडते आणि ते ताठ होतात.
+                    \n       हा आवाज त्यांना चांगला ठाऊक आहे. तोंडातले गवत तसेच धरून कान उंच उभे करून ते कण्हत असल्यासारखा आवाज जेथून येतो त्या दिशेने पाहू लागतात. पण आपल्याला काही धोका नाही हे कळताच ते पुन्हा गवतात तोंड खुपसून चरू लागतात."
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Powered by"
+                    android:layout_gravity="center"/>
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/vclassroom"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".Cow_Info">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:padding="20dp"
+                android:background="@drawable/orange_info_bg">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/cow"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="गाई"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="50dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="         भारत कृषी देश असल्यामुळे येथे गायीचं फार महत्त्व आहे. हिंदू धर्मात गायीचं महत्त्व असल्याचे काही आध्यात्मिक, धार्मिक आणि चिकित्सीय कारणंही आहेत."
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="      भारतामध्ये हिंदू धर्मात लोक आईच्या रूपात तिची पूजा करतात. ती आम्हाला दूध देते जे फारच फायदेशीर आणि पौष्टिक असत. \n      हा पशू जगात सर्व भागांमध्ये आढळून येतो. आम्ही आमचे आरोग्य उत्तम ठेवण्यासाठी रोज गायीचे दूध पितो. गायीचे दूध नवजात बालकांसाठी चांगले व पचनशील असत. गाय स्वभावाने फारच सरळ पशू आहे. हिला चार पाय, एक लांब शेपूट, दोन सिंग, दोन कान, एक तोंड, एक मोठी नाक आणि डोकं असत. ही मादा पशू आहे जी सकाळ व संध्याकाळ दोन वेळा दूध देते. काही गायी त्यांचा आहार आणि क्षमतेनुसार दिवसातून तीनवेळा देखील दूध देतात. हिंदू धर्मात गायीला आईच्या रूपात मानले गेले आहे आणि आम्ही तिला गाऊ माताच्या नावाने बोलावतो. हिंदू लोक गायीचा फार सन्मान आणि पूजा करतात. गायीचे दूध पूजा व अभिषेक करताना कामात घेतो.\n       गाय 12 महिन्यानंतर एक लहान वासरूला जन्म देते. गाय आपल्या वासरूला चालणे आणि धावणे शिकवत नाही ते जन्मानंतर स्वत:च चालू आणि धावू लागत. \n        वासरू काही महिन्यांपर्यंत तिचे दूध पितो नंतर गायीसारखे जेवण करणे सुरू करतो. गाय सर्व हिंदूंसाठी एक पवित्र पशू आहे."
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Powered by"
+                    android:layout_gravity="center"/>
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/vclassroom"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

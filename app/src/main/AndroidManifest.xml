@@ -9,7 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Bear_Info"></activity>
+        <activity android:name=".Horse_Info"></activity>
+        <activity android:name=".Rabbit_Info" />
+        <activity android:name=".Zebra_Info" />
+        <activity android:name=".Elephant_Info" />
+        <activity android:name=".Deer_Info" />
+        <activity android:name=".Cow_Info" />
+        <activity android:name=".Camel_Info" />
+        <activity android:name=".Bear_Info" />
         <activity android:name=".Lion_Info" />
         <activity android:name=".Tiger_Info" />
         <activity android:name=".Animal" />

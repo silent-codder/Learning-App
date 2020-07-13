@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".Rabbit_Info">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:padding="20dp"
+                android:background="@drawable/red_info_bg">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/rabbit"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ससा"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="50dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="     ससा एक छोटा पाळीव सस्तन प्राणी आहे. हा लहान प्राणी जगातील प्रत्येक कोप-यात आढळतो. बहुतांश ससे जंगलात, शेतात, गवताळ प्रदेशांमध्ये राहतात"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="       बहुतेक जमिनीत खड्डा बनवतात. जगभरात आढळणार्‍या सशांची 8 प्रजाती आहेत .मादी ससा 5 ते 12 मुलांना जन्म देते. 15 दिवसांपर्यंत त्यांच्या मुलांना दुध देल्यानंतर मादी ससे पुन्हा नर सशांना पुनरुत्पादित करण्यास तयार होतात.
+                    \n         सश्यांचे कान मोठ्या असतात, जे सुमारे 10 सेंटीमीटर लांब असतात. ससा सुमारे 8 ते 10 वर्षे जगतो . त्यांचे वजन साधारणत: २ किलो पर्यत असू शकते. ससा 60 तास प्रति तास वेगाने धावू शकतो. सशांना 28 दात असतात. ते गटांमध्ये राहण्यास प्राधान्य देतात.
+                    \n         आजच्या काळात ते फार दुर्मिळ झाले आहेत . आणि शिकार करणार्‍या  प्राण्यांच्या जोखमीमुळे सशांना 1 वर्षापेक्षा जास्त काळ जगू शकता येत नाही. ससा 60 तास प्रति तास वेगाने धावू शकतो. सशांना 28 दात असतात. ते गटांमध्ये राहण्यास प्राधान्य देतात."
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Powered by"
+                    android:layout_gravity="center"/>
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/vclassroom"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

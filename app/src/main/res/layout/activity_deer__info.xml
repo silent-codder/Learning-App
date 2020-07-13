@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".Deer_Info">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:padding="20dp"
+                android:background="@drawable/red_info_bg">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/deer"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="हरिण"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="50dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="        हरीण भारतात आढळणारी हरीणाची मुख्य जात आहे. याचे शास्त्रीय नाव Cervix unicolour असे आहे. भारतात आढळणाऱ्या हरीणांमध्ये आकाराने सर्वात मोठे हे हरीण आहे. \n            खांद्या पर्यंत याची उंची साधारणपणे १ ते दीड मीटर पर्यंत भरते तर पूर्ण वाढलेल्या नराचे वजन सहजपणे ४०० ते ५०० किलो पर्यंत भरू शकते.\n       याची वर्गवारी हरीणांच्या सारंग कुळात होते. या कुळातील हरीणांच्या मादींना शिंगे नसतात. नरांची शिंगे भरीव असून दरवर्षी उगवतात व गळतात. \n       शिंगाना अनेक टोके असतात. सांबरांच्या एका शिंगाला पुढे १ व मागे दोन अशी एकुण तीन टोके असतात. माद्या नेहेमी कळप करून रहातात. \n        त्यांचा कळप ८ ते १० जणांचा असतो. नर शक्यतो एकटेच असतात.सांबरांचे मुख्य खाद्य शाकाहारी असल्याने गवत, पाने, फळे इत्यादी आहे.
+\n       सांबराचे मुख्य शत्रु वाघ , बिबट्या, तळ्यांमधील मगरी , व रानकुत्री आहेत. आकार मोठा असल्याने वाघांचे सर्वात आवडते खाद्य आहे."
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Powered by"
+                    android:layout_gravity="center"/>
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/vclassroom"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

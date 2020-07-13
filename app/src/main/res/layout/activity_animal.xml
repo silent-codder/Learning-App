@@ -235,7 +235,8 @@
                     android:textColor="#ffffff"
                     android:textStyle="bold"
                     android:layout_marginTop="5dp"
-                    android:text="आज आपण जंगलाचा राजा, भारताचा राष्ट्रीय प्राणी वाघाबद्दल जाणून घेऊया. वाघ हा जंगलाचा राजा म्हणून ओळखला जातो"
+                    android:text="उंट हा एक वाळवंटी प्रदेशात राहणारा प्राणी आहे. वाळवंटातील वास्तव्यासाठी त्याची नैसर्गिक जडणघडण झाली आहे."
+
                     android:gravity="center"
                     android:textSize="17sp"/>
 
@@ -293,8 +294,8 @@
                     android:layout_gravity="center"
                     android:textColor="#ffffff"
                     android:textStyle="bold"
+                    android:text="भारत कृषी देश असल्यामुळे येथे गायीचं फार महत्त्व आहे. हिंदू धर्मात गायीचं महत्त्व असल्याचे काही आध्यात्मिक, धार्मिक आणि चिकित्सीय कारणंही आहेत."
                     android:layout_marginTop="5dp"
-                    android:text="आज आपण जंगलाचा राजा, भारताचा राष्ट्रीय प्राणी वाघाबद्दल जाणून घेऊया. वाघ हा जंगलाचा राजा म्हणून ओळखला जातो"
                     android:gravity="center"
                     android:textSize="17sp"/>
 
@@ -353,7 +354,7 @@
                     android:textColor="#ffffff"
                     android:textStyle="bold"
                     android:layout_marginTop="5dp"
-                    android:text="आज आपण जंगलाचा राजा, भारताचा राष्ट्रीय प्राणी वाघाबद्दल जाणून घेऊया. वाघ हा जंगलाचा राजा म्हणून ओळखला जातो"
+                    android:text="हरीण भारतात आढळणारी हरीणाची मुख्य जात आहे. याचे शास्त्रीय नाव Cervix unicolour असे आहे. "
                     android:gravity="center"
                     android:textSize="17sp"/>
 
@@ -412,7 +413,7 @@
                     android:textColor="#ffffff"
                     android:textStyle="bold"
                     android:layout_marginTop="5dp"
-                    android:text="आज आपण जंगलाचा राजा, भारताचा राष्ट्रीय प्राणी वाघाबद्दल जाणून घेऊया. वाघ हा जंगलाचा राजा म्हणून ओळखला जातो"
+                    android:text="भारतीय संस्कृतीत हत्ती हे समृद्धी, सृजनशीलता, बुद्धी, औदार्य, शौर्य, मांगल्य व राजयोगाचे प्रतीक मानले गेले आहे."
                     android:gravity="center"
                     android:textSize="17sp"/>
 
@@ -471,7 +472,7 @@
                     android:textColor="#ffffff"
                     android:textStyle="bold"
                     android:layout_marginTop="5dp"
-                    android:text="आज आपण जंगलाचा राजा, भारताचा राष्ट्रीय प्राणी वाघाबद्दल जाणून घेऊया. वाघ हा जंगलाचा राजा म्हणून ओळखला जातो"
+                    android:text="घोडा हा एक खूप चपळ पण प्रामाणिक प्राणी आहे. त्याचे वैज्ञानिक नाव 'Equus ferus caballus' असे आहे."
                     android:gravity="center"
                     android:textSize="17sp"/>
 
@@ -530,7 +531,7 @@
                     android:textColor="#ffffff"
                     android:textStyle="bold"
                     android:layout_marginTop="5dp"
-                    android:text="आज आपण जंगलाचा राजा, भारताचा राष्ट्रीय प्राणी वाघाबद्दल जाणून घेऊया. वाघ हा जंगलाचा राजा म्हणून ओळखला जातो"
+                    android:text="काळ्या-पांढऱ्‍या पट्ट्यांची अतुलनीय रचना असलेले, कुटुंबाला एकनिष्ठ राहणारे, रानटी व स्वच्छंदी असलेले झेब्रा दिमाखदार आणि देखणे प्राणी आहेत यात शंकाच नाही."
                     android:gravity="center"
                     android:textSize="17sp"/>
 
@@ -589,7 +590,7 @@
                     android:textColor="#ffffff"
                     android:textStyle="bold"
                     android:layout_marginTop="5dp"
-                    android:text="आज आपण जंगलाचा राजा, भारताचा राष्ट्रीय प्राणी वाघाबद्दल जाणून घेऊया. वाघ हा जंगलाचा राजा म्हणून ओळखला जातो"
+                    android:text="ससा एक छोटा पाळीव सस्तन प्राणी आहे. हा लहान प्राणी जगातील प्रत्येक कोप-यात आढळतो. बहुतांश ससे जंगलात, शेतात, गवताळ प्रदेशांमध्ये राहतात"
                     android:gravity="center"
                     android:textSize="17sp"/>
 

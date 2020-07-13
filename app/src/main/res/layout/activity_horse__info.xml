@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".Horse_Info">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:padding="20dp"
+                android:background="@drawable/black_info_bg">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/horse"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="घोडा"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="50dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="       घोडा हा एक खूप चपळ पण प्रामाणिक प्राणी आहे. त्याचे वैज्ञानिक नाव Equus ferus caballus असे आहे. घोडे अनेक प्रकारच्या रंगात आढळतात. \n        काही घोडे पांढरे, काही लालसर, काही काळे तर काही राखाडी रंगाचे असतात. आपल्या देशात घोड्यांच्या प्रामाणिकपणाचे अनेक उदाहरण आहेत. महाराणा प्रताप यांच्या चेतक नावाच्या घोड्याचे उदाहरण जगजाहीर आहे.\n      घोडा पाचव्या वर्षी पूर्ण तारुण्यात येतो. घोड्याचे आयुष्य वीस ते पंचवीस वर्षाचे असते.
+\n          नर आणि मादा अस्या प्रकारचे घोडे  आढळतात. नराला घोडा आणि माद्याला घोडी म्हणतात. घोडा भरधाव फेकल्यास चाळीस ते पंचेचाळीस की.मी पर्यंत ताशी धाव घेतो. घोड्याची दृष्टी नेहमी तीक्ष्ण आणि सतर्क असते. तो ३५० डिग्री पर्यंतचा सभोतालचा प्रदेशावर दृष्टी फिरवू शकतो. तसेच घोड्याची ऐकण्याची आणि वासाची शक्ती हि खूप असते. \n         घोडा आपल्या डोक्याला थोडाही हलविल्याविना खूप दूरपर्यंतचा आवाज ऐकू शकतो. अस्या प्रामाणिक प्राण्याचे महत्व ओळखूनच आपल्या पूर्वजांनी घोड्याला आपल्या जवळ मोलाचे स्थान दिले होते.
+                घोडा पूर्वी दळणवळणाचा मुख्य साधन होता. आजही घोडा विवाह प्रसंगी आणि काही शुभ मुहुर्तावरती प्रतिष्ठेचे गणक म्हणून वापरले जाते."
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Powered by"
+                    android:layout_gravity="center"/>
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/vclassroom"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".Flower_Info.Zendu_Info">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/orange_info_bg"
+                android:padding="20dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/zendu"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="झेंडू"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="50dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="             दसरा, दिवाळी अशा सणांना दारावरील तोरणात आपण झेंडूची फुले ओवतो. आपल्या अंगणात, बाल्कनीत झेंडूची झाडे लावतो. एकूणच आपल्याला खूप जवळची वाटणारी झेंडू ही वनस्पती मूळची भारतीय नाही."
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="         या वनस्पतीचे मूळ मेक्सिकोमध्ये आहे. कंपॉझिटी या कुलातील या वनस्पतीचे शास्त्रीय नाव टॅजेट्स इरेक्टा असे आहे.
+                    \n             झेंडूचे झुडूप वाढण्यासाठी विशिष्ट प्रकारचे हवामान किंवा जमीन आवश्यक नसते.कोणत्याही प्रकारचे हवामान झेंडूला मानवते.झेंडूची पाने एकाआड येतात.
+                    \n             पानावर बारीक लव असते आणि आकारही विशिष्ट असा असतो. पानांना एक वेगळाच गंध असतो. झेंडूची काही फुले एकेरी असतात, काही मोठी गोंडय़ासारखी असतात. पुष्पबंधात दोन प्रकारची फुले एका ठिकाणी जोडलेली असतात, आपण ज्या भागाला पाकळी समजतो ती पाकळी नसून ती अनेक फुले आहेत. त्यांना रे फ्लोरेट्स असे म्हणतात. मधल्या भागावर डिस्क फ्लोरेट्स असतात. अशाच प्रकारची फुले सूर्यफूल, झेनिया, अ‍ॅस्टर, जब्रेरा या वनस्पतींमध्ये स्पष्ट दिसून येतात. नारिंगी आणि पिवळ्या रंगाच्या झेंडूच्या अनेक जाती आहेत."
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Powered by"
+                    android:layout_gravity="center"/>
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/vclassroom"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

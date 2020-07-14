@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".Flower_Info.Sadaphuli_Info">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:padding="20dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/sadaphuli"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="सदाफुली"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="50dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="           सदाफुली ही एक अंगणामध्ये शोभेसाठी लावली जाते.हे फुल बाराही महिने फुल्लेच असते.सदाफुली या फुलाला जास्तीत जास्त पाच पाकळ्या असतात."
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="           सदाफुली. घरोघरी अंगणात आढळणारे हे फूल बाराही महिने फुललेलेच असते. साधारण दिसणारे सदाफुलीचे झाड काही वेळा काढून टाकले जाते. सदाफुलीची पांढरी, गुलाबी, जांभळी नाजूक फुले सुंदर दिसतात. सौंदर्याबरोबरच यामध्ये औषधी गुणधर्मही आहेत.
+                    \n          मधुमेह, उच्चरक्तदाब, कर्करोग, ऑनिमिया, सर्दी अशा आजारांवर सदाफुलीचे फक्त एक फूल गुणकारी आहे. सदाफुली वात आणि पित्ताचे शमन करते, मेंदूला शांती देते, मधुमेह नियंत्रित करते. तित्यातील भारनाशक गुणधर्मामुळे लठ्ठपणाही दूर करते. यासाठी सदाफुलीची ३ पांढरी फुले रोज चावून चावून ८-१० दिवस खावीत. पुन्हा ८-१० दिवसांनी हा प्रयोग करून पहावा.
+                    \n          सदाफुलीच्या मुळाच्या सालीत फेलोनिक राड, एक उडनशील तेल, दोन अल्कोहोल, दोन ग्यालकोसाइड, टॅनिन, करोटिनाइड, स्टिरॉल व उससोलीक ऑसिड असते. सदाफुलीच्या पाना-फुलांचा-मुळांचा उपयोग अनिद्रा आणि मानसिक उद्रेक दूरकरून शांती प्रदान करण्यासाठी केला जातो. विंचू आदि विषारी प्राणी किंवा किडे चावले असता सदाफुलीच्या सालीचा लेप लावल्यास किंवा पानांचा रस चोळल्यास फायदा होतो."
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Powered by"
+                    android:layout_gravity="center"/>
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/vclassroom"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".Fruit_Info.Banana_Info">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:padding="20dp"
+                android:background="@drawable/red_info_bg">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/banana"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="केळी"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="50dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="            केळी खाण्यासाठी सर्वात लाभदायक असतात. यांपासून अनेक आरोग्यदायक फायदे आहेत. हे एक बहुगुणी फळ आहे ज्यामध्ये अनेक पोषके आणि जीवनसत्वे आहेत."
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="            जसे ए.बी.सी आणि इ तसेच खनिजे जसे कि, पोटयाशियम, झिंक, लोह आणि मेग्नीज पण असतात. केली खाल्ल्याने आपले आरोग्य स्वस्थ व त्वचा नरम राहते.
+केळीमध्ये ते सर्व पोषके दिसून येतात जे शरीरास लाभदायक ठरतात. केळीमध्ये जीवनसत्व क आणि ब६ यांचे अस्तित्व जास्त असते त्यामुळे त्वचेत लवचिकता येण्यासाठी याचे सेवन लाभकारी असते."
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Powered by"
+                    android:layout_gravity="center"/>
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/vclassroom"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".Fruit_Info.JackFruit_Info">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:padding="20dp"
+                android:background="@drawable/red_info_bg">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/jackfruit"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="फणस"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="50dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="       फणस हे फळ आकाराने फार मोठे असते. फणसाच्या आवरणाला चारखंड असे म्हणतात. चारखंडाला काट्यांसारखी अनेक टोके असतात."
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="          त्यामुळे फणस हा बाहेरून काटेरी खडबडीत असतो. फणसाच्या आतील भागात मधोमध काठीसारखा भाग असतो. त्याला पाव असे म्हणतात. त्यालाच अनेक गरे लागलेले असतात. एका गऱ्यामध्ये एक बी असते.
+                    \n           तिला आठोळी म्हणतात. फळाच्या शेवटच्या टोकाला आलेल्या गऱ्याला टेंबळी म्हणतात. छोट्या कच्च्या फणसाला कुइरी म्हणतात. कच्च्या फणसाची भाजी करतात.फणसाला किंवा त्याच्या झाडाला निचूळ असाही एक शब्द आहे."
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Powered by"
+                    android:layout_gravity="center"/>
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/vclassroom"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

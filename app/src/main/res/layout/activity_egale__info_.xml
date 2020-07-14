@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Bird_Info.Egale_Info_Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:padding="20dp"
+                android:background="@drawable/yellow_info_bg">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/eagle"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="गरुड"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="50dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="              गरुड हा पक्षियांचा राजा! सिंह जसा वनराज म्हणून ओळखला जातो त्याचप्रमाणे गरुड पक्षीराज म्हणून ओळखला जातो. सर्व पक्ष्यांत त्याचा वेगळाच दिमाख असतो.
+                    \n          त्याचे गरुड भरारी पंख, त्याची बिल्लीसारखी नखे आणि त्याची कोयत्यासारखी चोच ही त्याची इतर पक्ष्यांपेक्षा वेगळी असणारी वैशिष्टय़े आहेत.
+                    \n          सर्व पक्ष्यांना त्याचा धाक आणि दरारा मोठा असतो. सिंह जसा गुहेतून बाहेर पळताना त्याची चाहूल सर्व पशूंना होते व तो येतोय हे कळताच सशापासून वाघापर्यंत सर्वाची धावपळ सुरू होते त्याचप्रमाणे उंच पर्वताच्या कडयावरून गरुड येतोय हे कळल्याबरोबर सारी लहानसहान पाखरे चिडीचूप होतात."
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="बाकीचे पक्षी आपापल्या घरटयात जाऊन बसतात. गरुडाची भरारी एवढी मोठी असते की त्याच्या प्रचंड पंखांनी जणू आभाळ व्यापून जाते. खरं तर आजच्या भाषेत तो पक्ष्यांचा डॉन असतो.
+                     \n             गरुडाचे दोन प्रकार आहेत. एक सर्प गरुड, दुसरा मच्छी गरुड! एकाला सर्पाची शिकार आवडते तर दुस-याला मासे फार आवडतात.
+                      \n        गरुडाचे डोळे फार तीक्ष्ण असतात. तो कितीही उंचीवर आकाशात उडत असला तरी त्याला जमिनीवर सापाची वळवळ लगेच दिसते."
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Powered by"
+                    android:layout_gravity="center"/>
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/vclassroom"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

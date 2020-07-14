@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Bird_Info.Parrot_Info_Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:padding="20dp"
+                android:background="@drawable/red_info_bg">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/parrot"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="पोपट"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="50dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="            पोपट हा पाळीव पाणी आहे. पोपटाचा रंग हिरवा असतो. त्याची चोच लाल व बाकदार असते. त्याचे डोळे गोल व मन यासारखे चमकदार असतात. शेपटी लांब असते. हिरवी पिसे असतात.
+                     \n     पायांची नखे व आकार असा असतो की तो फांदीवर घट्ट बसू शकतो."
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="        पोपटाला हिरवी मिरची, हरभऱ्याची डाळ, आणि पेरू खूप आवडतो. पोपत मिठू मिठू असा आवाज करतो.
+                     \n           पोपट जंगलात झाडावर राहतो. पारधी त्याला पकडतात आणि पिंजर्‍यात ठेवतात. पिंजरा ठेवल्याने त्याचे स्वातंत्र्य नष्ट होते. प्रत्येक पाखराला आकाशात उंच उडायला आवडते. पोपटाचे अनेक जाती असतात.
+                      \n          लोक पोटाला विकत घेऊन त्याचा पिंजरा घरात ठेवतात. शिकवले तर पोपट बोलायला शिकतो जसे की  'या बसा' राम राम, नमस्कार, सुस्वागतम वगैरे शब्द आपल्या गोड आवाजात म्हणतो.
+                       \n   पोपटाला रघु असेही म्हणतात. लहान मुलांना पोपट खूप आवडतो"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Powered by"
+                    android:layout_gravity="center"/>
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/vclassroom"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

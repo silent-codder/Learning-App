@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Bird_Info.Peacock_Info_Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:padding="20dp"
+                android:background="@drawable/orange_info_bg">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/peacock"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="मोर"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="50dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="              देशाच्या प्रत्येक भागात सापडणारा, नागरिकांना माहिती असलेला तसेच भारतीय संस्कृतीचा हिस्सा असलेला पक्षी निवडण्यास प्राधान्य होते व त्यात मोर यशस्वी झाला."
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="मोर हा पक्षी पांढऱ्या रंगातही आढळतो.पांढरा मोर दुर्मिळ आहे. मोर आपला सुंदर पिसारा फुलवून लांडोरीला आकर्षित करत असतो.
+                    \n          पावसाची चाहूल लागताच मोर हा त्याचा पिसारा फुलवतो आणि नाचतो म्हणूनच आपल्याला पावसाळात जास्त करून मोर दिसतात.भारतात मोर पाळायला कायद्याने परवानगी काढावी लागते.
+                    \n          जवळपास मोर असले आणि मोरांना नियमित खायला दिले तर मोर नियमित त्या घरात वावरतात.
+                    \n          चोचीपासून शेपटीपर्यंत त्याची लांबी 100 ते 115 सें.मी. असते. पूर्ण वाढलेला पिसारा 195 ते 225 सें.मी. लांबीचा असू शकतो. मोराचे वजन 4 - 6 किलो असते. लांडोर (मादी) आकाराने लहान असतात.
+                     \n         त्यांची लांबी साधारणतः 95 सें.मी. आणि वजन 2.7 - 4 किलो असते. लांडोरीला किंचितही पिसारा नसतो."
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Powered by"
+                    android:layout_gravity="center"/>
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/vclassroom"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

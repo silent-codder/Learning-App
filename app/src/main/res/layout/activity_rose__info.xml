@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".Flower_Info.Rose_Info">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/black_info_bg"
+                android:padding="20dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/rose"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="गुलाब"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="50dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="         फुलांचा राजा म्हणून सर्वांना माहीत असलेले सदापर्णी झुडूप. रोझेसी कुलातील रोझा प्रजातीमधील ही वनस्पती "
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="      जगभर गुलाबाच्या १५० हून अधिक जाती असून फुले विविध रंगांत आढळतात. गुलाबाच्या काही जाती वेलींच्या स्वरूपात आढळतात. बहुतेक जाती मूळच्या आशियातील असून कमी संख्येने जाती यूरोप, उत्तर अमेरिका आणि उत्तर आफ्रिका येथील आहेत.
+                    \n       रानटी गुलाबाच्या फुलाला पाच पाकळ्या असतात. या गुलाबापासून सध्याचे अनेक पाकळ्या असलेले व विविध रंगांचे गुलाब तयार करण्यात आले आहेत. सौंदर्य आणि सुगंधासाठी जगभर त्यांची लागवड केली जाते.
+                     \n      आतापर्यंत २०,००० हून अधिक गुलाबांचे प्रकार संकर व कलम करून निर्माण केले आहेत."
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Powered by"
+                    android:layout_gravity="center"/>
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/vclassroom"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

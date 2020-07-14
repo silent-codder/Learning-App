@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fruit_Info.Straberry_Info">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:padding="20dp"
+                android:background="@drawable/black_info_bg">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/strawberry"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="स्ट्रॉबेरी"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="50dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="               स्ट्रॉबेरी हे मूळ उत्तर अमेरिकेचे फळ आहे. त्यानंतर त्याचा प्रसार युरोप मध्ये झाला. स्ट्रॉबेरी फळाभोवती खास श्रीमंतीचे वलय आहे."
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="         स्ट्राॅबेरी फळ यातील सुगंध, गडद लाल रंग, रसयुक्त आणि त्याच्या गोडीकरता प्रसिध्द आहे. याचा विषेशतः उपयोग फळांचा ज्युस, आईसक्रीम, मिल्कशेक, चाॅकलेट बनवण्याकरता आणि थेट खाण्याकरता देखील केला जातो.
+                    \n          मानवनिर्मीत स्ट्राॅबेरी फ्लेवर आणि सुगंधाचा उपयोग ब-याचश्या उत्पादनात उदा. लिपगार्ड, हॅण्ड सॅनिटायजर, आणि परफ्युम बनवण्याकरता केला जातो.
+                    \n        गुलाबी रंगाने व्यापलेले स्ट्राॅबेरी एकमेव असे फळ आहे ज्याचे बी आत नसुन बाहेर असते. त्याचे आकर्षक रूप मनमोहक ठेवण आणि रसस्वादच त्याला इतर फळांपासुन वेगळे आणि प्रसिध्द बनवते."
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Powered by"
+                    android:layout_gravity="center"/>
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/vclassroom"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

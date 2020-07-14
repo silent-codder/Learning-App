@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Bird_Info.Cock_Info">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:padding="20dp"
+                android:background="@drawable/yellow_info_bg">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/cock"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="कोंबडा"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="50dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="              जगात सर्वत्र मोठ्या संख्येने असलेला पाळीव पक्षी. प्रामुख्याने मांस आणि अंडी मिळविण्यासाठी हे पक्षी जगभर पाळले जातात."
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="        इतर सर्व पक्ष्यांप्रमाणे कोंबड्याला डोके, मान, चोच, पंख आणि पाय हे मुख्य अवयव असतात. यांखेरीज याच्या शरीरावर खास मांसल भाग (अवयव) वाढलेले असतात. याच्या डोक्यावर लालभडक तुरा असून तो एका बाजूस पडलेला असतो.
+                     \n        कोंबड्याच्या डोक्यावर सरळ, उभा लालभडक तुरा असतो,  तर चोचीच्या खाली लालभडक कल्ला असतो. यांमुळे हा पक्षी इतर पक्ष्यांहून वेगळा दिसतो. पूर्ण वाढ झालेल्या कोंबड्याचे वजन ०.५ ते ५ किग्रॅ. असते.
+                     \n        इतर सर्व पक्ष्यांप्रमाणे याच्या अंगावर पिसे असतात. पायाचा खालचा भाग वगळता पूर्ण शरीर पिसांनी झाकलेले असते. थंड हवामानात पिसांमुळेच याचे शरीर उबदार राहते."
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Powered by"
+                    android:layout_gravity="center"/>
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/vclassroom"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

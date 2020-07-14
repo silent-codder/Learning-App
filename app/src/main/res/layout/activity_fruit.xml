@@ -59,7 +59,7 @@
             android:textColor="#ffffff"
             android:textStyle="bold"
             android:layout_marginTop="5dp"
-            android:text="आज आपण भारताचा राष्ट्रीय प्राणी वाघाबद्दल जाणून घेऊया.  २९ जुलै हा जागतिक वाघ दिवस म्हणून साजरा केला जातो."
+            android:text="आरोग्याच्या दृष्टीने सर्व फळांमध्ये अतिउत्तम म्हणून सफरचंद हे फळ मानले जाते.  मधुर, आंबट चवीचे सफरचंद हे बऱ्याच अंशी पूर्ण असल्याने आरोग्यसंरक्षक फळ मानले गेले आहे."
             android:gravity="center"
             android:textSize="17sp"/>
 
@@ -119,7 +119,7 @@
             android:textColor="#ffffff"
             android:textStyle="bold"
             android:layout_marginTop="5dp"
-            android:text="प्राण्यांचा राजा सिंह आहे. अतिशय शूर, देखना, रुबाबदार असा हा प्राणी जंगलाचा राजा म्हणून शोभून दिसतो. "
+            android:text="केळी खाण्यासाठी सर्वात लाभदायक असतात. यांपासून अनेक आरोग्यदायक फायदे आहेत. हे एक बहुगुणी फळ आहे ज्यामध्ये अनेक पोषके आणि जीवनसत्वे आहेत."
             android:gravity="center"
             android:textSize="17sp"/>
 
@@ -179,7 +179,7 @@
             android:textColor="#ffffff"
             android:textStyle="bold"
             android:layout_marginTop="5dp"
-            android:text="अस्वले आपल्या हातांच्या विळख्यात प्राण्याला घट्ट पकडून गुदगुल्या करून ठार मारते अशी समजूत आहे. पण ती समजूत खरी नाही."
+            android:text="द्राक्ष ही एक वेलवर्गातील वनस्पती आहे. याच्या दोन जाती आहेत: पिवळी द्राक्षे व काळी द्राक्षे. ही फळे उन्हाळ्यात मिळतात."
             android:gravity="center"
             android:textSize="17sp"/>
 
@@ -239,8 +239,7 @@
             android:textColor="#ffffff"
             android:textStyle="bold"
             android:layout_marginTop="5dp"
-            android:text="उंट हा एक वाळवंटी प्रदेशात राहणारा प्राणी आहे. वाळवंटातील वास्तव्यासाठी त्याची नैसर्गिक जडणघडण झाली आहे."
-
+            android:text="फणस हे फळ आकाराने फार मोठे असते. फणसाच्या आवरणाला चारखंड असे म्हणतात. चारखंडाला काट्यांसारखी अनेक टोके असतात."
             android:gravity="center"
             android:textSize="17sp"/>
 
@@ -299,7 +298,7 @@
             android:layout_gravity="center"
             android:textColor="#ffffff"
             android:textStyle="bold"
-            android:text="भारत कृषी देश असल्यामुळे येथे गायीचं फार महत्त्व आहे. हिंदू धर्मात गायीचं महत्त्व असल्याचे काही आध्यात्मिक, धार्मिक आणि चिकित्सीय कारणंही आहेत."
+            android:text="आंबा हे विषुवृत्तीय प्रदेशात आढळणारं झाड आणि फळ आहे. अवीट गोडीच्या या फळाला ‘कोकणचा राजा’ असं म्हणतात. एप्रिल ते जून हा या फळाचा मोसम आहे."
             android:layout_marginTop="5dp"
             android:gravity="center"
             android:textSize="17sp"/>
@@ -360,7 +359,7 @@
             android:textColor="#ffffff"
             android:textStyle="bold"
             android:layout_marginTop="5dp"
-            android:text="हरीण भारतात आढळणारी हरीणाची मुख्य जात आहे. याचे शास्त्रीय नाव Cervix unicolour असे आहे. "
+            android:text="संत्र्याचा रंग प्रामुख्याने नारंगी असतो ज्यामुळे त्याला नारंगी या नावाने देखील ओळखले जाते. संत्र्याच्या झाडाची गडद हिरवी पाने....."
             android:gravity="center"
             android:textSize="17sp"/>
 
@@ -420,7 +419,7 @@
             android:textColor="#ffffff"
             android:textStyle="bold"
             android:layout_marginTop="5dp"
-            android:text="भारतीय संस्कृतीत हत्ती हे समृद्धी, सृजनशीलता, बुद्धी, औदार्य, शौर्य, मांगल्य व राजयोगाचे प्रतीक मानले गेले आहे."
+            android:text="अननसाची पक्क फळे चकत्या करून खातात त्याच्या फळापासून मुरंबा, रस व शिर्का तयार करतात. त्याच्या ताज्या रसात ब्रोमेलिन नावाचा पाचक पदार्थ असतो. तसेच क जीवनसत्त्वही असते."
             android:gravity="center"
             android:textSize="17sp"/>
 
@@ -479,8 +478,8 @@
             android:layout_gravity="center"
             android:textColor="#ffffff"
             android:textStyle="bold"
+            android:text="स्ट्रॉबेरी हे मूळ उत्तर अमेरिकेचे फळ आहे. त्यानंतर त्याचा प्रसार युरोप मध्ये झाला. स्ट्रॉबेरी फळाभोवती खास श्रीमंतीचे वलय आहे"
             android:layout_marginTop="5dp"
-            android:text="घोडा हा एक खूप चपळ पण प्रामाणिक प्राणी आहे. त्याचे वैज्ञानिक नाव 'Equus ferus caballus' असे आहे."
             android:gravity="center"
             android:textSize="17sp"/>
 

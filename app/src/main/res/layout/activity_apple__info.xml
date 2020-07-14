@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".Fruit_Info.Apple_Info">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:padding="20dp"
+                android:background="@drawable/black_info_bg">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/apple"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="सफरचंद"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="50dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="       आरोग्याच्या दृष्टीने सर्व फळांमध्ये अतिउत्तम म्हणून सफरचंद हे फळ मानले जाते.  मधुर, आंबट चवीचे सफरचंद हे बऱ्याच अंशी पूर्ण असल्याने आरोग्यसंरक्षक फळ मानले गेले आहे."
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="         ‘रोज एक सफरचंद खा आणि डॉक्टरला दूर ठेवा’ हे बोधवाक्य सफरचंदाची महती विशद करते सफरचंद हे रोझेसी कुळातील फळ असून मूळचे पूर्व युरोपातील आणि पश्चिम आशियातील आहे.
+                     \n          भारतात सफरचंदाचे उत्पादन मुख्यत्वे करून काश्मीर, कुलू-मनाली या थंड व डोंगराळ प्रदेशात घेतले जाते.सफरचंद नियमित खाल्ल्याने दातावरचे किटण जाऊन दात स्वच्छ होतात.
+                     \n          सफरचंद चांगले बारीक चावून खाल्ल्याने तोंडातील व दातामधील जंतूंना आळा बसतो व त्यातील ‘क’ जीवनसत्त्वामुळे दातांबरोबरच हिरडय़ांचेही आरोग्य चांगले राहते. सफरचंदाच्या सेवनाने हिरडय़ा मजबूत होतात.  तसेच तोंड स्वच्छ करण्याचा गुणधर्म सफरचंदामधील अन्नघटकांमध्ये असतो.  म्हणून दातांच्या तक्रारींवर सफरचंदाचा वापर नियमित करावा."
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Powered by"
+                    android:layout_gravity="center"/>
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/vclassroom"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

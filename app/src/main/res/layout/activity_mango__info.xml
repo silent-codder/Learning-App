@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".Fruit_Info.Mango_Info">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:padding="20dp"
+                android:background="@drawable/orange_info_bg">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/mango"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="आंबा"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="50dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="        आंबा हे विषुवृत्तीय प्रदेशात आढळणारं झाड आणि फळ आहे. अवीट गोडीच्या या फळाला ‘कोकणचा राजा’ असं म्हणतात. एप्रिल ते जून हा या फळाचा मोसम आहे."
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="            एप्रिल ते जून हा या फळाचा मोसम आहे. असं असलं तरी आंब्याचा उगम नक्की कुठे झाला हे सांगता येत नाही. दक्षिण अणि दक्षिण पूर्व आशियामध्ये मोठया प्रमाणात जैववैविध्य पाहता इथेच उगम झाल्याचं मानण्यात येतं.
+               \n             आंब्याला भारताच्या संस्कृतीत विशेष महत्त्व आहे. आंबा हे भारत आणि पाकिस्तान देशांचं ‘राष्ट्रीय फळ’ तर बांगलादेशचं ‘राष्ट्रीय झाड’ आहे आणि फिलिपाइन्सचं ‘राष्ट्रचिन्ह’ आहे.
+               \n             भारतात आंब्याच्या हापूस, पायरी, तोतापुरी, केशर, फर्नाडिस, रायवळ इ. जाती आहेत. कच्च्या आंब्याला ‘कैरी’ असं म्हणतात, कैरीचा रंग साधारणपणे हिरवा असतो तर पूर्ण पक्व फळाचा रंग पिवळा, केशरी आणि लाल असा बदलता दिसून येतो."
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Powered by"
+                    android:layout_gravity="center"/>
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/vclassroom"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

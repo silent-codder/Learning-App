@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".Bird_Info.Piageon_Info">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:padding="20dp"
+                android:background="@drawable/yellow_info_bg">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/pigeon"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="कबुतर"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="50dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="          कबुतर हा एक सुंदर पक्षी आहे आणि संपूर्ण जगात आढळून येतो. कबुतर हा उडणारा पक्षी आहे. कबुतर या पक्ष्याला पारवा या नावाने सुद्धा ओळखले जाते."
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="         कबुतर या पक्ष्याला एक चोच असते आणि दोन पंख असतात. हे पंख कबुतराला उडण्यासाठी मदत करतात. कबुतर हा पक्षी साधारणपणे ३० से. मी आकार मानाचे असतात. यासेच हे पक्षी निळ्या, राखाडी व सफेद रंगाचे असतात.
+\n             कबुतर पक्ष्याच्या पंखांवर दोन काळे आणि रुंद पत्ते असतात. तर शेपटीच्या भागावर काळा रंग असतो. त्यांच्या मानेवर आणि गळ्यावर हिरव्या व जांभळ्या रंगाचे चमकदार ठिपके असतात. कबुतराच्या पंखाखाली पंधरा रंग असतो आणि चोच ही काळ्या रंगाची असते.
+\n            कबुतर पक्ष्याचे डोळे आणि पाय हे लाल रंगाचे असतात. नर आणि मादी हे दोन्ही दिसायला सारखेच असतात. कबुतर हा पक्षी गुटूर – गू, गुटूर – गू असा आवाज काढतो."
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Powered by"
+                    android:layout_gravity="center"/>
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/vclassroom"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

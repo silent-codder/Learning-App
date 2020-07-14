@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".Fruit_Info.Pinaple_Info">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:padding="20dp"
+                android:background="@drawable/red_info_bg">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/pinaple"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="अननस"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="50dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="          अननसाची पक्क फळे चकत्या करून खातात त्याच्या फळापासून मुरंबा, रस व शिर्का तयार करतात. त्याच्या ताज्या रसात ब्रोमेलिन नावाचा पाचक पदार्थ असतो. तसेच क जीवनसत्त्वही असते."
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="           पिकलेले फळ शीतल, पाचक व मूत्रल असते. निर्यात करताना त्याचा गर हवाबंद डब्यांत भरून पाठवितात. अननसाच्या पानांपासून काढलेल्या धाग्यांपासून हातविणीचे कापड तयार करतात.
+                     \n       हे कापड रेशमासारखे दिसते. धाग्यांपासून दोराही तयार करतात. अननस हे बहुवर्षायू व लहान झुडूप असून त्यांचा बुंधा मोठा व खुजा असतो. पाने लांबट, भालाकार, दंतुर काठाची, वरच्या बाजूला चकचकीत व टोकदार असतात. पुष्पविन्यास लालसर, लहान तसेच पानांनी वेढलेला असतो.
+\n        पुष्पविन्यासापासून मऊ, मांसल आणि संयुक्त फळ तयार होते. फळ रसाळ, किरमिजी रंगाचे व चवीला आंबटगोड असते."
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Powered by"
+                    android:layout_gravity="center"/>
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/vclassroom"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

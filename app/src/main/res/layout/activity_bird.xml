@@ -58,7 +58,7 @@
                     android:textColor="#ffffff"
                     android:textStyle="bold"
                     android:layout_marginTop="5dp"
-                    android:text="आज आपण भारताचा राष्ट्रीय प्राणी वाघाबद्दल जाणून घेऊया.  २९ जुलै हा जागतिक वाघ दिवस म्हणून साजरा केला जातो."
+                    android:text="देशाच्या प्रत्येक भागात सापडणारा, नागरिकांना माहिती असलेला तसेच भारतीय संस्कृतीचा हिस्सा असलेला पक्षी निवडण्यास प्राधान्य होते व त्यात मोर यशस्वी झाला."
                     android:gravity="center"
                     android:textSize="17sp"/>
 
@@ -118,7 +118,7 @@
                     android:textColor="#ffffff"
                     android:textStyle="bold"
                     android:layout_marginTop="5dp"
-                    android:text="प्राण्यांचा राजा सिंह आहे. अतिशय शूर, देखना, रुबाबदार असा हा प्राणी जंगलाचा राजा म्हणून शोभून दिसतो. "
+                    android:text="गरुड हा पक्षियांचा राजा! सिंह जसा वनराज म्हणून ओळखला जातो त्याचप्रमाणे गरुड पक्षीराज म्हणून ओळखला जातो. सर्व पक्ष्यांत त्याचा वेगळाच दिमाख असतो."
                     android:gravity="center"
                     android:textSize="17sp"/>
 
@@ -177,8 +177,8 @@
                     android:layout_gravity="center"
                     android:textColor="#ffffff"
                     android:textStyle="bold"
+                    android:text="पोपट हा पाळीव पाणी आहे. पोपटाचा रंग हिरवा असतो. त्याची चोच लाल व बाकदार असते. त्याचे डोळे गोल व मन यासारखे चमकदार असतात."
                     android:layout_marginTop="5dp"
-                    android:text="अस्वले आपल्या हातांच्या विळख्यात प्राण्याला घट्ट पकडून गुदगुल्या करून ठार मारते अशी समजूत आहे. पण ती समजूत खरी नाही."
                     android:gravity="center"
                     android:textSize="17sp"/>
 
@@ -238,8 +238,7 @@
                     android:textColor="#ffffff"
                     android:textStyle="bold"
                     android:layout_marginTop="5dp"
-                    android:text="उंट हा एक वाळवंटी प्रदेशात राहणारा प्राणी आहे. वाळवंटातील वास्तव्यासाठी त्याची नैसर्गिक जडणघडण झाली आहे."
-
+                    android:text="सर्वात जास्त संख्येने असणारा पक्षी म्हणून चिमणी (नर- चिमणा, मादी-चिमणी) परिचयाची आहे. नर चिमणीच्या कपाळाचा, शेपटीवरचा आणि पार्श्वभाग राखाडी,....."
                     android:gravity="center"
                     android:textSize="17sp"/>
 
@@ -298,7 +297,7 @@
                     android:layout_gravity="center"
                     android:textColor="#ffffff"
                     android:textStyle="bold"
-                    android:text="भारत कृषी देश असल्यामुळे येथे गायीचं फार महत्त्व आहे. हिंदू धर्मात गायीचं महत्त्व असल्याचे काही आध्यात्मिक, धार्मिक आणि चिकित्सीय कारणंही आहेत."
+                    android:text="जगात सर्वत्र मोठ्या संख्येने असलेला पाळीव पक्षी. प्रामुख्याने मांस आणि अंडी मिळविण्यासाठी हे पक्षी जगभर पाळले जातात."
                     android:layout_marginTop="5dp"
                     android:gravity="center"
                     android:textSize="17sp"/>
@@ -359,7 +358,7 @@
                     android:textColor="#ffffff"
                     android:textStyle="bold"
                     android:layout_marginTop="5dp"
-                    android:text="हरीण भारतात आढळणारी हरीणाची मुख्य जात आहे. याचे शास्त्रीय नाव Cervix unicolour असे आहे. "
+                   android:text="पक्षी वर्गाच्या काक-कुलातील एक परिचित पक्षी. कावळ्याच्या अनेक जाती असून दक्षिण अमेरिकेचा अपवाद सोडून जगात सर्वत्र कावळे दिसून येतात."
                     android:gravity="center"
                     android:textSize="17sp"/>
 
@@ -418,8 +417,8 @@
                     android:layout_gravity="center"
                     android:textColor="#ffffff"
                     android:textStyle="bold"
+                    android:text="बदके हिरवी, निळी, लाल, तपकिरी व पांढरी अशा विविध रंगांची असतात. ती आकाराने हंसापेक्षा लहान व स्थूल असतात. मान आणि पाय आखूड असतात. "
                     android:layout_marginTop="5dp"
-                    android:text="भारतीय संस्कृतीत हत्ती हे समृद्धी, सृजनशीलता, बुद्धी, औदार्य, शौर्य, मांगल्य व राजयोगाचे प्रतीक मानले गेले आहे."
                     android:gravity="center"
                     android:textSize="17sp"/>
 
@@ -479,7 +478,7 @@
                     android:textColor="#ffffff"
                     android:textStyle="bold"
                     android:layout_marginTop="5dp"
-                    android:text="घोडा हा एक खूप चपळ पण प्रामाणिक प्राणी आहे. त्याचे वैज्ञानिक नाव 'Equus ferus caballus' असे आहे."
+                    android:text="कबुतर हा एक सुंदर पक्षी आहे आणि संपूर्ण जगात आढळून येतो. कबुतर हा उडणारा पक्षी आहे. कबुतर या पक्ष्याला पारवा या नावाने सुद्धा ओळखले जाते."
                     android:gravity="center"
                     android:textSize="17sp"/>
 

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".Flower_Info.Daisy_Info">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/black_info_bg"
+                android:padding="20dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/daisy"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="डेझी"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="50dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="          अ‍ॅस्टरेसी कुलातील फुलांच्या एका जातिसमूहाला डेझी म्हणतात. बेलिस पेरेनिस असे शास्त्रीय नाव असलेली ही जाती यूरोपीय डेझीची सामान्य जाती आहे. ही जाती डेझीची मूळ जाती आहे, असे मानतात"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="डेझीचे क्षुप १५ सेंमी. उंचीपर्यंत वाढते. पाने साधी, लांब व एकाआड एक असून जमिनीलगत वाढतात. पानांचा आकार चमच्याप्रमाणे असून ती २—५ सेंमी. लांब असतात.
+                     \n         कुलाच्या वैशिष्ट्याप्रमाणे स्तबकात बिंब-पुष्पके व किरण-पुष्पके असतात. बिंब-पुष्पके पिवळ्या रंगाची तर किरण-पुष्पके पांढरी, जांभळी किंवा गुलाबी असतात. किरण-पुष्पकातील प्रत्येक पाकळी स्वतंत्र फुलाप्रमाणे कार्य करते.
+ \n           यूरोपात कित्येक ठिकाणी या वनस्पतीचे जमिनीवर आच्छादन केले जाते व नको असलेली तणे त्यामुळे नष्ट होतात. काही ठिकाणी ते स्वत:च नैसर्गिक तण म्हणून वाढते."
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Powered by"
+                    android:layout_gravity="center"/>
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/vclassroom"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

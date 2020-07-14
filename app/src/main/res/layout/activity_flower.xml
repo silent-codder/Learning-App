@@ -58,7 +58,7 @@
                     android:textColor="#ffffff"
                     android:textStyle="bold"
                     android:layout_marginTop="5dp"
-                    android:text="आज आपण भारताचा राष्ट्रीय प्राणी वाघाबद्दल जाणून घेऊया.  २९ जुलै हा जागतिक वाघ दिवस म्हणून साजरा केला जातो."
+                    android:text="कमळ ह्या वनस्पतीचे फूल भारत आणि व्हिएटनाम या देशांचे राष्ट्रीय फूल आहे. ही सुंदर, बळकट जलवनस्पती आहे."
                     android:gravity="center"
                     android:textSize="17sp"/>
 
@@ -118,7 +118,7 @@
                     android:textColor="#ffffff"
                     android:textStyle="bold"
                     android:layout_marginTop="5dp"
-                    android:text="प्राण्यांचा राजा सिंह आहे. अतिशय शूर, देखना, रुबाबदार असा हा प्राणी जंगलाचा राजा म्हणून शोभून दिसतो. "
+                    android:text="अ‍ॅस्टरेसी कुलातील फुलांच्या एका जातिसमूहाला डेझी म्हणतात. बेलिस पेरेनिस असे शास्त्रीय नाव असलेली ही जाती यूरोपीय डेझीची सामान्य जाती आहे. ही जाती डेझीची मूळ जाती आहे, असे मानतात"
                     android:gravity="center"
                     android:textSize="17sp"/>
 
@@ -178,7 +178,7 @@
                     android:textColor="#ffffff"
                     android:textStyle="bold"
                     android:layout_marginTop="5dp"
-                    android:text="अस्वले आपल्या हातांच्या विळख्यात प्राण्याला घट्ट पकडून गुदगुल्या करून ठार मारते अशी समजूत आहे. पण ती समजूत खरी नाही."
+                    android:text="भारतात सर्वत्र आढळणारे शोभेच्या फुलाचे एक झुडूप."
                     android:gravity="center"
                     android:textSize="17sp"/>
 
@@ -238,8 +238,7 @@
                     android:textColor="#ffffff"
                     android:textStyle="bold"
                     android:layout_marginTop="5dp"
-                    android:text="उंट हा एक वाळवंटी प्रदेशात राहणारा प्राणी आहे. वाळवंटातील वास्तव्यासाठी त्याची नैसर्गिक जडणघडण झाली आहे."
-
+                    android:text="मोगऱ्याच्या फुलापासून अत्तरही तयार करण्यासाठीवापरले जाते .मोगऱ्याचे फूल पांढऱ्या रंगाचे असते त्याला बिया नसतात. हे फुल २.५ सेमी चे असते. याचे दोन प्रकार आहेत ."
                     android:gravity="center"
                     android:textSize="17sp"/>
 
@@ -298,7 +297,7 @@
                     android:layout_gravity="center"
                     android:textColor="#ffffff"
                     android:textStyle="bold"
-                    android:text="भारत कृषी देश असल्यामुळे येथे गायीचं फार महत्त्व आहे. हिंदू धर्मात गायीचं महत्त्व असल्याचे काही आध्यात्मिक, धार्मिक आणि चिकित्सीय कारणंही आहेत."
+                    android:text="फुलांचा राजा म्हणून सर्वांना माहीत असलेले सदापर्णी झुडूप. रोझेसी कुलातील रोझा प्रजातीमधील ही वनस्पती "
                     android:layout_marginTop="5dp"
                     android:gravity="center"
                     android:textSize="17sp"/>
@@ -359,7 +358,7 @@
                     android:textColor="#ffffff"
                     android:textStyle="bold"
                     android:layout_marginTop="5dp"
-                    android:text="हरीण भारतात आढळणारी हरीणाची मुख्य जात आहे. याचे शास्त्रीय नाव Cervix unicolour असे आहे. "
+                    android:text="सदाफुली ही एक अंगणामध्ये शोभेसाठी लावली जाते.हे फुल बाराही महिने फुल्लेच असते.सदाफुली या फुलाला जास्तीत जास्त पाच पाकळ्या असतात."
                     android:gravity="center"
                     android:textSize="17sp"/>
 
@@ -419,7 +418,7 @@
                     android:textColor="#ffffff"
                     android:textStyle="bold"
                     android:layout_marginTop="5dp"
-                    android:text="भारतीय संस्कृतीत हत्ती हे समृद्धी, सृजनशीलता, बुद्धी, औदार्य, शौर्य, मांगल्य व राजयोगाचे प्रतीक मानले गेले आहे."
+                    android:text="सूर्यफूल हे ॲस्टरेसी कुळातील वनस्पती आहे. शास्त्रीय नाव हेलीऍन्थस ॲनस आहे.हिच्या ७० प्रजाती आहेत."
                     android:gravity="center"
                     android:textSize="17sp"/>
 
@@ -479,7 +478,7 @@
                     android:textColor="#ffffff"
                     android:textStyle="bold"
                     android:layout_marginTop="5dp"
-                    android:text="घोडा हा एक खूप चपळ पण प्रामाणिक प्राणी आहे. त्याचे वैज्ञानिक नाव 'Equus ferus caballus' असे आहे."
+                    android:text="दसरा, दिवाळी अशा सणांना दारावरील तोरणात आपण झेंडूची फुले ओवतो. आपल्या अंगणात, बाल्कनीत झेंडूची झाडे लावतो."
                     android:gravity="center"
                     android:textSize="17sp"/>
 

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Bird_Info.Crow_Info">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:padding="20dp"
+                android:background="@drawable/red_info_bg">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/crow"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="कावळा"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="50dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="पक्षी वर्गाच्या काक-कुलातील एक परिचित पक्षी. कावळ्याच्या अनेक जाती असून दक्षिण अमेरिकेचा अपवाद सोडून जगात सर्वत्र कावळे दिसून येतात.
+                    \n        गावकावळा व डोमकावळा या भारतातील कावळ्याच्या दोन जाती आहेत. गावकावळ्याचे शास्त्रीय नाव कोर्व्हस स्प्लेंडेन्स आणि डोमकावळ्याचे कोर्व्हस मॅक्रोर्‍हिंकस आहे. गावकावळा आकाराने पारव्यापेक्षा मोठा असून त्याची लांबी सु. ४६ सेंमी. असते.
+                     \n       त्याच्या काळ्या रंगात किंचित हिरवट, निळसर किंवा जांभळ्या रंगाची झाक असते. मानेभोवती, पाठीकडे आणि छातीवर करडा किंवा राखाडी रंग असतो. चोच आणि पाय मजबूत व काळे असतात. डोळे गडद तपकिरी रंगाचे असून दृष्टी तीक्ष्ण असते.
+                     \n       त्याचा आवाज कर्कश असतो. डोमकावळा गावकावळ्यापेक्षा किंचित अधिक मोठा असतो. या दणकट पक्षाची चोचही अधिक धारदार आणि बळकट असते. याच्या सर्वांगावर चकचकीत काळाभोर रंग असतो."
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Powered by"
+                    android:layout_gravity="center"/>
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/vclassroom"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

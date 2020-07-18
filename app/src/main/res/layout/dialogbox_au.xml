@@ -22,15 +22,15 @@
             android:layout_width="250dp"
             android:layout_height="200dp"
             android:layout_gravity="center_horizontal"
-            android:src="@drawable/sugarcane"/>
+            android:src="@drawable/worker"/>
         <Button
             android:id="@+id/buttonOk"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="15dp"
-            android:background="@drawable/yellow_bg"
-            android:text="ऊ - ऊस"
+            android:background="@drawable/red_bg"
+            android:text="ओ - ओझेवाला"
             android:textStyle="bold"
             android:textSize="30dp"
             android:textColor="#FFF" />

@@ -1,10 +1,280 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Mulakshare">
 
-  </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/orange_info_bg"
+        android:textColor="@color/white"
+        android:text="स्वर"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <ScrollView
+        android:layout_below="@id/title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableLayout
+            android:padding="7dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="3">
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_marginTop="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/a"
+                    android:text="अ"
+                    android:textColor="@color/orange"
+                    android:padding="10dp"
+                    android:textSize="50dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="100dp"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/aa"
+                    android:text="आ"
+                    android:textColor="@color/orange"
+                    android:padding="10dp"
+                    android:textSize="50dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="100dp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/e"
+                    android:text="इ"
+                    android:textColor="@color/orange"
+                    android:padding="10dp"
+                    android:textSize="50dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="100dp"
+                    android:layout_weight="1"/>
+
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_marginTop="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/ee"
+                    android:text="ई"
+                    android:textColor="@color/orange"
+                    android:padding="10dp"
+                    android:textSize="50dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="100dp"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/u"
+                    android:text="उ"
+                    android:textColor="@color/orange"
+                    android:padding="10dp"
+                    android:textSize="50dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="100dp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/uu"
+                    android:text="ऊ"
+                    android:textColor="@color/orange"
+                    android:padding="10dp"
+                    android:textSize="50dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="100dp"
+                    android:layout_weight="1"/>
+
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_marginTop="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/ru"
+                    android:text="ऋ"
+                    android:textColor="@color/orange"
+                    android:padding="10dp"
+                    android:textSize="50dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="100dp"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/ai"
+                    android:text="ए"
+                    android:textColor="@color/orange"
+                    android:padding="10dp"
+                    android:textSize="50dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="100dp"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/aii"
+                    android:text="ऐ"
+                    android:textColor="@color/orange"
+                    android:padding="10dp"
+                    android:textSize="50dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="100dp"
+                    android:layout_weight="1"/>
+
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_marginTop="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+
+                <TextView
+                    android:id="@+id/ao"
+                    android:text="ओ"
+                    android:textColor="@color/orange"
+                    android:padding="10dp"
+                    android:textSize="50dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="100dp"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/aau"
+                    android:text="औ"
+                    android:textColor="@color/orange"
+                    android:padding="10dp"
+                    android:textSize="50dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="100dp"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/am"
+                    android:text="अं"
+                    android:textColor="@color/orange"
+                    android:padding="10dp"
+                    android:textSize="50dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="100dp"
+                    android:layout_weight="1"/>
+
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_marginTop="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+
+                <TextView
+                    android:textColor="@color/orange"
+                    android:padding="10dp"
+                    android:textSize="50dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="100dp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/amm"
+                    android:text="अ:"
+                    android:textColor="@color/orange"
+                    android:padding="10dp"
+                    android:textSize="50dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/txt_bg"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="100dp"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:textColor="@color/orange"
+                    android:padding="10dp"
+                    android:textSize="50dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="100dp"
+                    android:layout_weight="1"/>
+
+
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+</RelativeLayout>

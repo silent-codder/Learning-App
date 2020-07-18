@@ -12,45 +12,124 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Flower_Info.Zendu_Info" android:screenOrientation="portrait"></activity>
-        <activity android:name=".Flower_Info.Sadaphuli_Info" android:screenOrientation="portrait" />
-        <activity android:name=".Flower_Info.Sunflower_Info" android:screenOrientation="portrait" />
-        <activity android:name=".Flower_Info.Jasmine_Info"  android:screenOrientation="portrait"/>
-        <activity android:name=".Flower_Info.Jaswand_Info" android:screenOrientation="portrait" />
-        <activity android:name=".Flower_Info.Daisy_Info" android:screenOrientation="portrait" />
-        <activity android:name=".Flower_Info.Rose_Info" android:screenOrientation="portrait" />
-        <activity android:name=".Flower_Info.Lotus_Info" android:screenOrientation="portrait"/>
-        <activity android:name=".Fruit_Info.Straberry_Info" android:screenOrientation="portrait" />
-        <activity android:name=".Fruit_Info.Pinaple_Info" android:screenOrientation="portrait" />
-        <activity android:name=".Fruit_Info.Orange_Info" android:screenOrientation="portrait"/>
-        <activity android:name=".Fruit_Info.Mango_Info" android:screenOrientation="portrait"/>
-        <activity android:name=".Fruit_Info.JackFruit_Info" android:screenOrientation="portrait"/>
-        <activity android:name=".Fruit_Info.Grapes_Info" android:screenOrientation="portrait"/>
-        <activity android:name=".Fruit_Info.Banana_Info" android:screenOrientation="portrait"/>
-        <activity android:name=".Fruit_Info.Apple_Info" android:screenOrientation="portrait"/>
-        <activity android:name=".Bird_Info.Piageon_Info" android:screenOrientation="portrait"/>
-        <activity android:name=".Bird_Info.Duck_Info" android:screenOrientation="portrait"/>
-        <activity android:name=".Bird_Info.Crow_Info" android:screenOrientation="portrait"/>
-        <activity android:name=".Bird_Info.Cock_Info" android:screenOrientation="portrait"/>
-        <activity android:name=".Bird_Info.Sparrow_Info" android:screenOrientation="portrait"/>
-        <activity android:name=".Bird_Info.Parrot_Info_Activity" android:screenOrientation="portrait" />
-        <activity android:name=".Bird_Info.Egale_Info_Activity" android:screenOrientation="portrait"/>
-        <activity android:name=".Bird_Info.Peacock_Info_Activity" android:screenOrientation="portrait"/>
-        <activity android:name=".Flower" android:screenOrientation="portrait"/>
-        <activity android:name=".Fruit" android:screenOrientation="portrait"/>
-        <activity android:name=".Bird" android:screenOrientation="portrait"/>
-        <activity android:name=".Animal_Info.Horse_Info" android:screenOrientation="portrait" />
-        <activity android:name=".Animal_Info.Rabbit_Info" android:screenOrientation="portrait" />
-        <activity android:name=".Animal_Info.Zebra_Info" android:screenOrientation="portrait"/>
-        <activity android:name=".Animal_Info.Elephant_Info" android:screenOrientation="portrait" />
-        <activity android:name=".Animal_Info.Deer_Info" android:screenOrientation="portrait"/>
-        <activity android:name=".Animal_Info.Cow_Info" android:screenOrientation="portrait"/>
-        <activity android:name=".Animal_Info.Camel_Info" android:screenOrientation="portrait"/>
-        <activity android:name=".Animal_Info.Bear_Info" android:screenOrientation="portrait"/>
-        <activity android:name=".Animal_Info.Lion_Info" android:screenOrientation="portrait"/>
-        <activity android:name=".Animal_Info.Tiger_Info" android:screenOrientation="portrait"/>
-        <activity android:name=".Animal" android:screenOrientation="portrait"/>
-        <activity android:name=".MainActivity" android:screenOrientation="portrait">
+        <activity android:name=".Mulakshare"></activity>
+        <activity
+            android:name=".Flower_Info.Zendu_Info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Flower_Info.Sadaphuli_Info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Flower_Info.Sunflower_Info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Flower_Info.Jasmine_Info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Flower_Info.Jaswand_Info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Flower_Info.Daisy_Info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Flower_Info.Rose_Info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Flower_Info.Lotus_Info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fruit_Info.Straberry_Info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fruit_Info.Pinaple_Info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fruit_Info.Orange_Info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fruit_Info.Mango_Info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fruit_Info.JackFruit_Info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fruit_Info.Grapes_Info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fruit_Info.Banana_Info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fruit_Info.Apple_Info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Bird_Info.Piageon_Info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Bird_Info.Duck_Info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Bird_Info.Crow_Info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Bird_Info.Cock_Info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Bird_Info.Sparrow_Info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Bird_Info.Parrot_Info_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Bird_Info.Egale_Info_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Bird_Info.Peacock_Info_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Flower"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fruit"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Bird"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Animal_Info.Horse_Info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Animal_Info.Rabbit_Info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Animal_Info.Zebra_Info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Animal_Info.Elephant_Info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Animal_Info.Deer_Info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Animal_Info.Cow_Info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Animal_Info.Camel_Info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Animal_Info.Bear_Info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Animal_Info.Lion_Info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Animal_Info.Tiger_Info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Animal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

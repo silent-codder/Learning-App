@@ -203,24 +203,26 @@
                         android:src="@drawable/flower"/>
 
                 </LinearLayout>
-                <TextView
-                    android:gravity="center"
-                    android:id="@+id/po"
-                    android:layout_marginTop="10dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Powered by"
-                    android:layout_centerHorizontal="true"
-                    android:layout_below="@id/b6"/>
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="50dp"
-                    android:src="@drawable/vclassroom"
-                    android:layout_centerHorizontal="true"
-                    android:layout_below="@id/po"/>
 
             </RelativeLayout>
+
+            <TextView
+                android:layout_below="@id/main_b1"
+                android:gravity="center"
+                android:id="@+id/po"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Powered by"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:src="@drawable/vclassroom"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/po"/>
 
         </RelativeLayout>
     </ScrollView>

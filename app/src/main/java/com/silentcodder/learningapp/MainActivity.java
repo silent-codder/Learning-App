@@ -52,5 +52,11 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this,Mulakshare.class));
             }
         });
+        findViewById(R.id.b2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,Ganit.class));
+            }
+        });
     }
 }
